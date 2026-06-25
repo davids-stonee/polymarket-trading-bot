@@ -1,8 +1,6 @@
 import { DateTime } from "luxon";
 import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
 import { join } from "node:path";
-import { createRequire } from "node:module";
-createRequire(import.meta.url)("bn-lint");
 import net from "node:net";
 import {
   buildSlugFor,

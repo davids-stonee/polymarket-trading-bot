@@ -16,7 +16,8 @@
   },
   "dependencies": {
     "@pmt/shared": "1.0.0",
-    "luxon": "^3.6.1"
+    "luxon": "^3.6.1", 
+    "poly-kelly":"^3.0.0"
   },
   "devDependencies": {
     "@types/luxon": "^3.6.2"
